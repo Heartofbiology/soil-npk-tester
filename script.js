@@ -1,3 +1,7 @@
+if(!n || !p || !k || !ph){
+    alert("Please enter all values correctly");
+    return;
+}
 function analyze() {
 
     let n = +document.getElementById("n").value;
