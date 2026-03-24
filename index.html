@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Soil Advisor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 Smart Soil Intelligence System</h1>
+</header>
+
+<div class="container">
+
+    <h2>Enter Soil Data</h2>
+
+    <input type="number" id="n" placeholder="Nitrogen (1-10)">
+    <input type="number" id="p" placeholder="Phosphorus (1-10)">
+    <input type="number" id="k" placeholder="Potassium (1-10)">
+    <input type="number" id="ph" placeholder="pH (1-14)">
+
+    <select id="state">
+        <option>Punjab</option>
+        <option>Tamil Nadu</option>
+        <option>Maharashtra</option>
+        <option>Karnataka</option>
+        <option>Uttar Pradesh</option>
+    </select>
+
+    <button onclick="analyze()">Analyze Soil</button>
+
+</div>
+
+<div id="result"></div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
