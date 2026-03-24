@@ -1,0 +1,22 @@
+const locations = {
+"Punjab": ["Ludhiana","Amritsar","Patiala","Jalandhar","Bathinda","Mohali"],
+"Haryana": ["Gurgaon","Hisar","Karnal","Rohtak","Panipat"],
+"Uttar Pradesh": ["Lucknow","Kanpur","Varanasi","Agra","Meerut"],
+"Maharashtra": ["Pune","Nagpur","Nashik","Mumbai","Aurangabad"],
+"Karnataka": ["Bangalore","Mysore","Hubli","Mangalore"],
+"Tamil Nadu": ["Chennai","Coimbatore","Madurai","Salem","Trichy"],
+"Telangana": ["Hyderabad","Warangal","Karimnagar"],
+"Andhra Pradesh": ["Vijayawada","Guntur","Nellore"],
+"Gujarat": ["Ahmedabad","Surat","Rajkot","Vadodara"],
+"Rajasthan": ["Jaipur","Jodhpur","Udaipur"],
+"Madhya Pradesh": ["Bhopal","Indore","Gwalior"],
+"Bihar": ["Patna","Gaya","Muzaffarpur"],
+"West Bengal": ["Kolkata","Howrah","Durgapur"],
+"Kerala": ["Kochi","Trivandrum","Kozhikode"],
+"Assam": ["Guwahati","Dibrugarh"],
+"Himachal Pradesh": ["Shimla","Kullu"],
+"Jharkhand": ["Ranchi","Jamshedpur"],
+"Odisha": ["Bhubaneswar","Cuttack"],
+"Chhattisgarh": ["Raipur","Bilaspur"],
+"Uttarakhand": ["Dehradun","Haridwar"]
+};
